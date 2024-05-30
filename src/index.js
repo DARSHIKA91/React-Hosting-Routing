@@ -10,7 +10,6 @@ import {
 } from "react-router-dom"
 
 const root = ReactDom.createRoot(document.getElementById("root"))
-
 const router = createBrowserRouter([
     {
         path: "/",
@@ -25,5 +24,4 @@ const router = createBrowserRouter([
         element: <Contact/>
     }
 ])
-
 root.render(<RouterProvider router={router}/>)
